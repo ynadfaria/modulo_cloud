@@ -6,7 +6,7 @@ phases:
       - npm install
   build:
      commands:
-     - echp Build iniciando em 'date'
+     - echo Build iniciando em 'date'
      - npm run build
   post_build:
     commands:
